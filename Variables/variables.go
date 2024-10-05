@@ -12,6 +12,7 @@ func main() {
 	)
 
 	thing1, thing2 := "cellphone", "laptop"
+	thing1, thing2 = thing2, thing1
 
 	fmt.Println(variable1)
 	fmt.Println(variable2)
